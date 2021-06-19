@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  padding: 20px 100px;
+  background-color: blue;
+}
+
+.logo{
+  width: 45%;
+  display: inline-block;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.header-text{
+  width: 45%;
+  float: right;
+}
+.header-text p{
+  width: fit-content;
+  padding: 4px;
+  margin-bottom: 4px;
+  margin-right: 0;
+  background-color:#ffffff;
+}
+
+.banner{
+  background-image: url('images/AdobeStock_294321823.jpeg');
+  background-size: cover;
+}
+.banner-container{
+  padding: 40px 100px;
+  background-color: rgba(239,125,0,0.16);
+}
+.content{
+  background-image: url('images/AdobeStock_244408717.jpeg');
+  background-size: cover;
+}
+h3{
+  font-size: 18px;
+  font-weight: 900;
+  color: #000000;
+  padding: 10px 0px;
+}
+h3 span{
+  background-color: #EF7D00;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+.feature p{
+  background-color: #F6F6F6;
+}
+.feature p b{
+  width: 20%;
+  background-color: #006DB7;
+  color: #ffffff;
+}
+
+.content-wrapper{
+  padding: 40px 100px;
+  background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+.footer{
+  background-color: #000000;
+  padding: 20px;
+  margin-bottom: 0px ;
+}
+.footer p{
+  color: #ffffff;
+  text-align: center;
+}
