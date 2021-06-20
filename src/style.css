@@ -41,6 +41,29 @@ body{
   padding: 40px 100px;
   background-color: rgba(239,125,0,0.16);
 }
+
+.card{
+  width: fit-content;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-icon, .card-title{
+  padding: 4px;
+  color: #006DB7;
+  font-size: 18px;
+}
+
+.card-sub-title{
+  font-size: 14px;
+}
+
 .content{
   background-image: url('images/AdobeStock_244408717.jpeg');
   background-size: cover;
@@ -81,4 +104,9 @@ ul li{
 .footer p{
   color: #ffffff;
   text-align: center;
+}
+
+#navigate{
+  background-color: #000000;
+  color: #ffffff;
 }
